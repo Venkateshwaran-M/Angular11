@@ -7,13 +7,13 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EmpformComponent } from './empform/empform.component';
-import { FormsComponent } from './forms/forms.component';
+// import { FormsComponent } from './forms/forms.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EmpformComponent,
-    FormsComponent
+    
   ],
   imports: [
     BrowserModule,
